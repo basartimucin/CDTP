@@ -1,0 +1,102 @@
+; G-code for Rectangles Packing
+; Total Rectangles: 16
+; Bin Dimensions: 20 x 20
+
+G0 X0 Y0
+M3 S255 ; Lower pen down
+G0 X120 Y0
+G0 X120 Y70
+G0 X0 Y70
+G0 X0 Y0
+M3 S15 ; Lift pen up
+G0 X120 Y0
+M3 S255 ; Lower pen down
+G0 X200 Y0
+G0 X200 Y60
+G0 X120 Y60
+G0 X120 Y0
+M3 S15 ; Lift pen up
+G0 X0 Y70
+M3 S255 ; Lower pen down
+G0 X120 Y70
+G0 X120 Y100
+G0 X0 Y100
+G0 X0 Y70
+M3 S15 ; Lift pen up
+G0 X120 Y60
+M3 S255 ; Lower pen down
+G0 X190 Y60
+G0 X190 Y110
+G0 X120 Y110
+G0 X120 Y60
+M3 S15 ; Lift pen up
+G0 X0 Y100
+M3 S255 ; Lower pen down
+G0 X50 Y100
+G0 X50 Y150
+G0 X0 Y150
+G0 X0 Y100
+M3 S15 ; Lift pen up
+G0 X50 Y110
+M3 S255 ; Lower pen down
+G0 X170 Y110
+G0 X170 Y130
+G0 X50 Y130
+G0 X50 Y110
+M3 S15 ; Lift pen up
+G0 X50 Y130
+M3 S255 ; Lower pen down
+G0 X160 Y130
+G0 X160 Y150
+G0 X50 Y150
+G0 X50 Y130
+M3 S15 ; Lift pen up
+G0 X170 Y110
+M3 S255 ; Lower pen down
+G0 X200 Y110
+G0 X200 Y180
+G0 X170 Y180
+G0 X170 Y110
+M3 S15 ; Lift pen up
+G0 X0 Y150
+M3 S255 ; Lower pen down
+G0 X60 Y150
+G0 X60 Y180
+G0 X0 Y180
+G0 X0 Y150
+M3 S15 ; Lift pen up
+G0 X60 Y150
+M3 S255 ; Lower pen down
+G0 X150 Y150
+G0 X150 Y170
+G0 X60 Y170
+G0 X60 Y150
+M3 S15 ; Lift pen up
+G0 X60 Y170
+M3 S255 ; Lower pen down
+G0 X110 Y170
+G0 X110 Y200
+G0 X60 Y200
+G0 X60 Y170
+M3 S15 ; Lift pen up
+G0 X110 Y170
+M3 S255 ; Lower pen down
+G0 X170 Y170
+G0 X170 Y190
+G0 X110 Y190
+G0 X110 Y170
+M3 S15 ; Lift pen up
+G0 X0 Y180
+M3 S255 ; Lower pen down
+G0 X40 Y180
+G0 X40 Y200
+G0 X0 Y200
+G0 X0 Y180
+M3 S15 ; Lift pen up
+G0 X170 Y180
+M3 S255 ; Lower pen down
+G0 X200 Y180
+G0 X200 Y200
+G0 X170 Y200
+G0 X170 Y180
+M3 S15 ; Lift pen up
